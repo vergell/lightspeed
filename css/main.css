@@ -2,9 +2,10 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    overflow: hidden; /*  Disable scrollbars */
-    display: block;  /* No floating content on sides */
+    overflow: hidden; 
+    display: block;  
 }
 canvas{
-    background: #161616;
+    background: rgb(12,11,17);
+    background: radial-gradient(circle, rgba(12,11,17,1) 0%, rgba(8,8,11,1) 100%);
 }
